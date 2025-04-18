@@ -1,0 +1,14 @@
+# 📝 TodoList Smart Contract (Cairo 1.0)
+
+A simple StarkNet smart contract for managing a task list. Built using Cairo 1.0 with support for adding, completing, deleting, and retrieving tasks. The contract also includes unit tests using the `SafeDispatcher` pattern for safe and readable test assertions.
+
+---
+
+## 🔧 Features
+
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Retrieve all tasks
+- Ownership protection (only the contract owner can modify tasks)
+
